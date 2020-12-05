@@ -1,2 +1,3 @@
-# npx-shravan20
+# CLI: npx shravan20
+
 Personal NPM card
