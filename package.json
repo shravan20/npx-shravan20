@@ -1,0 +1,25 @@
+{
+  "name": "shravan20",
+  "version": "1.0.1",
+  "description": "Personal Card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shravan20": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-HomeAccount:shravan20/npx-shravan20.git"
+  },
+  "author": "Shravan Kumar B",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "inquirer": "^7.3.3",
+    "open": "^7.3.0"
+  }
+}
