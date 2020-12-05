@@ -44,7 +44,7 @@ const data = {
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("imshravankb"),
     github: chalk.gray("https://github.com/") + chalk.green("shravan20"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("shravankb"),
-    website: chalk.cyan("https://ohmyscript.com/"),
+    web: chalk.cyan("https://ohmyscript.com"),
     npx: chalk.green("npx") + " " + chalk.white("shravan20"),
 
     labelWork: chalk.white.bold("       Work:"),
