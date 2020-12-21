@@ -40,20 +40,22 @@ const data = {
     work: `${chalk.white("Software Developer")} ${chalk
         .hex("#2b82b2")
         .bold("MTS-II")}`,
-    blog: chalk.gray("https://dev.to/") + chalk.whiteBright("imshravan"),
+    blog: chalk.gray("https://medium.com/") + chalk.whiteBright("@shravan20"),
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("imshravankb"),
     github: chalk.gray("https://github.com/") + chalk.green("shravan20"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("shravankb"),
     web: chalk.cyan("https://ohmyscript.com"),
+    devCommunity: chalk.gray("https://dev.to/") + chalk.yellow("imshravan"),
     npx: chalk.green("npx") + " " + chalk.white("shravan20"),
 
-    labelWork: chalk.white.bold("       Work:"),
-    labelBlog: chalk.white.bold("     Medium:"),
-    labelTwitter: chalk.white.bold("    Twitter:"),
-    labelGitHub: chalk.white.bold("     GitHub:"),
-    labelLinkedIn: chalk.white.bold("   LinkedIn:"),
-    labelWeb: chalk.white.bold("        Web:"),
-    labelCard: chalk.white.bold("       Card:")
+    labelWork: chalk.white.bold("        Work:"),
+    labelBlog: chalk.white.bold("      Medium:"),
+    labeldevCommunity: chalk.white.bold("devCommunity:"),
+    labelTwitter: chalk.white.bold("     Twitter:"),
+    labelGitHub: chalk.white.bold("      GitHub:"),
+    labelLinkedIn: chalk.white.bold("    LinkedIn:"),
+    labelWeb: chalk.white.bold("         Web:"),    
+    labelCard: chalk.white.bold("        Card:")
 };
 
 const me = boxen(
@@ -66,6 +68,7 @@ const me = boxen(
         `${data.labelGitHub}  ${data.github}`,
         `${data.labelLinkedIn}  ${data.linkedin}`,
         `${data.labelWeb}  ${data.web}`,
+        `${data.labeldevCommunity}  ${data.devCommunity}`,
         ``,
         `${data.labelCard}  ${data.npx}`,
         ``,
